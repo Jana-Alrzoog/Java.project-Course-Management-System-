@@ -1,16 +1,61 @@
-# Course Management System
+<h1 align="center">🎓 Course Management System</h1>
 
-## Description
-This project is designed to manage online and offline courses. It includes features like exception handling, file operations, and a graphical user interface (GUI).
+<p align="center">
+  A desktop-based Java application to manage online and offline courses with robust exception handling, file operations, and a user-friendly GUI.
+</p>
 
-## Features
-- **Exception Handling:** Handles exceptions such as invalid inputs and course limits.
-- **File Management:** Reads and saves data using binary and serialized object files.
-- **GUI:** Includes three frames for adding students, adding courses, and displaying course information.
-- **Search Functionality:** Allows users to search for students and courses using various criteria.
-- **Course Registration:** Supports the registration of students in multiple courses.
-- **Data Validation:** Ensures that all inputs are validated before processing to maintain data integrity.
-- **User Authentication:** Provides basic authentication to ensure that only authorized users can access or modify course data.
+---
 
-## How to Run
-- To run the application, execute the main file in your preferred Java environment.
+## 📘 Project Description
+
+This project provides a complete system for managing both **online and offline courses**, allowing administrators to register students, manage course data, and perform various operations through an intuitive **graphical user interface (GUI)**.  
+It combines **exception handling**, **file management**, and **user authentication** to ensure a smooth and secure experience.
+
+---
+
+## ✨ Key Features
+
+- 🛑 **Exception Handling**  
+  Detects and manages issues such as invalid input, course limits, and missing fields.
+
+- 🗂️ **File Management**  
+  Stores and retrieves data using **binary files** and **object serialization** to maintain data persistence across sessions.
+
+- 🧾 **Graphical User Interface (GUI)**  
+  Built with Java Swing, the application includes three main frames:
+  - Add Student Frame  
+  - Add Course Frame  
+  - Display Course Information Frame
+
+- 🔍 **Search Functionality**  
+  Allows filtering and searching of students and courses using name, ID, or course title.
+
+- 📝 **Course Registration**  
+  Supports enrolling one or more students into multiple courses with full data linkage.
+
+- ✅ **Data Validation**  
+  Validates all user inputs (e.g., names, IDs, dates) to prevent corrupt or incomplete data.
+
+- 🔐 **User Authentication**  
+  Includes a basic login system to restrict access to sensitive operations.
+
+---
+
+## 🚀 How to Run the Project
+
+1. Open the project in any Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans).
+2. Compile and run the `Main.java` file.
+3. Use the GUI to navigate through the system and perform all required actions.
+
+> Make sure you have Java installed and configured on your system.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+Please see the [LICENSE](./LICENSE) file for details.
+
+---
+
+> 📌 Designed to simplify course management and enhance the educational workflow for students and administrators alike.
