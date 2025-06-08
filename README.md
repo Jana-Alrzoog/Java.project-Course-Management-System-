@@ -1,4 +1,4 @@
-<h1 align="center">🎓 Course Management System</h1>
+<h1 align="center"> Course Management System</h1>
 
 <p align="center">
   A desktop-based Java application to manage online and offline courses with robust exception handling, file operations, and a user-friendly GUI.
